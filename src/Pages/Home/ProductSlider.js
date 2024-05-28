@@ -12,7 +12,7 @@ function ProductSlider(){
 
 
     return(<>
-    <div classname="container-fluid">
+    <div classname="container-fluid my-2">
     <div id="carouselExampleControls" class="carousel slide" data-intervall="false">
       <div class="carousel-inner">
         <div class="carousel-item active">

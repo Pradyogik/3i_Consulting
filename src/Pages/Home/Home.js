@@ -4,6 +4,9 @@ import Home_AboutUs from "./Home_AboutUs";
 import Home_Services from "./Home_Services";
 import OurProducts from "./OurProducts";
 import ProductSlider from "./ProductSlider";
+import ClientImages from "./ClientImages";
+import TestimonialsSection from "./TestimonialsSection";
+import ChooseUs from "./ChooseUs";
 
 
 
@@ -20,6 +23,9 @@ function Home(){
     <Home_Services/>
     <OurProducts/>
     <ProductSlider/>
+    <ClientImages/>
+    <TestimonialsSection/>
+    <ChooseUs/>
     </>)
 }
 
