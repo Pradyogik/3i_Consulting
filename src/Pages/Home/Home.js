@@ -7,6 +7,10 @@ import ProductSlider from "./ProductSlider";
 import ClientImages from "./ClientImages";
 import TestimonialsSection from "./TestimonialsSection";
 import ChooseUs from "./ChooseUs";
+import OurProjects from "./OurProjects";
+import Gallery from "./Gallery";
+import FAQs from "./FAQs";
+import HomeContactUs from "./HomeContactUs";
 
 
 
@@ -26,6 +30,10 @@ function Home(){
     <ClientImages/>
     <TestimonialsSection/>
     <ChooseUs/>
+    <OurProjects/>
+{/* <Gallery/> */}
+    <FAQs/>
+    <HomeContactUs/>
     </>)
 }
 

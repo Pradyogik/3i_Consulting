@@ -4,7 +4,7 @@ import blueSquareImg from '../../Assets/Images/Rectangle 8.png'
 import Logo1 from '../../Assets/Images/Logo (1).png'
 import Logo2 from '../../Assets/Images/Logo (2).png'
 import Logo3 from '../../Assets/Images/Logo(3).png'
-
+import squareBg from '../../Assets/Images/Group 11661.png';
 
 
 function OurProducts(){
@@ -31,6 +31,9 @@ function OurProducts(){
         <div className="productImgContainer">
            <img src={templeImg}/> 
         </div>
+    </div>
+    <div className="productFooterBg">
+        <img src={squareBg}/>
     </div>
     </>)
 }

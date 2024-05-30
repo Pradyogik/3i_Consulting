@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import squareBlueBox from '../../Assets/Images/Rectangle 8.png'
 import sliderBG1 from '../../Assets/Images/Rectangle 448.png'
 import sliderBG2 from '../../Assets/Images/Rectangle 448 (1).png'
 import sliderBG3 from '../../Assets/Images/Rectangle 448 (2).png'
@@ -13,6 +14,11 @@ function ProductSlider(){
 
     return(<>
     <div classname="container-fluid my-2">
+    <div className=' mb-5 sliderSectionContent text-center'>
+            <h6> <img className='mb-1' src={squareBlueBox}/> Our Project </h6>
+            <h1>Explore Our Comprehensive Range of <br/> Services</h1>
+        </div>
+
     <div id="carouselExampleControls" class="carousel slide" data-intervall="false">
       <div class="carousel-inner">
         <div class="carousel-item active">

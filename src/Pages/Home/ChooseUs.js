@@ -22,11 +22,11 @@ function ChooseUs() {
             <p className="px-5" >Well with highly qualified professionals in our team along with the technology gives edge over others, as a result highly rated professional services with full customer satisfaction is assured. We help to grow and manage your business letting you to concentrate on your business.</p>
         </div>
        </div>
-        {/* <div
+        <div
           id="carouselExampleControl1"
           class="carousel slide"
           data-intervall="false"
-        > */}
+        >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row chooseUsRow">
@@ -89,7 +89,7 @@ function ChooseUs() {
           <div className="d-flex justify-content-end">
             <img style={{ height: '100%' , objectFit: 'cover'}} src={dottedSquareBottomImg}/>
           </div>
-        {/* </div> */}
+        </div>
       </div>
     </>
   );
