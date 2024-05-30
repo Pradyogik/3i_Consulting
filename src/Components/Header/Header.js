@@ -12,7 +12,7 @@ function Header() {
   }, [location]);
 
   return (
-    <div className="headerContainer container-fluid p-0">
+    <div className="headerContainer container-fluid p-0 fixed-top">
       <nav className="navbar navbar-expand-lg headerNavbar navbar-light">
         <a className="navbar-brand ml-5 p-0 mr-0" href="#">
           <img src={logo} alt="Logo" />
