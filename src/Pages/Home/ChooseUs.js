@@ -18,7 +18,7 @@ function ChooseUs() {
         <img src={dottedSquareBg}/>
         </div>
         <div className="chooseUsHeading text-center my-5 mr-5">
-            <h1>  Why choose <span style={{color : '#0D98D9'}}>3i- Consulting</span>?    </h1>
+            <h1 className="font-weight-bold">  Why choose <span style={{color : '#0D98D9'}}>3i- Consulting</span>?    </h1>
             <p className="px-5" >Well with highly qualified professionals in our team along with the technology gives edge over others, as a result highly rated professional services with full customer satisfaction is assured. We help to grow and manage your business letting you to concentrate on your business.</p>
         </div>
        </div>

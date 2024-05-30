@@ -245,6 +245,11 @@ footer dl, ol, ul {
         max-width: 100.333333%;
         text-align: center;
     }
+    .iconDiv{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
 }
 @media(max-width:380px){
 .copyright {
@@ -265,10 +270,13 @@ footer dl, ol, ul {
         max-width: 100.333333%;
         text-align: center;
     }
+}
 @media(max-width:320px){
     .iconDiv div{
         margin-right:  auto;
         margin-top: 15px;
     }
-}
 }	
+@media(max-width:1440px){
+    
+}

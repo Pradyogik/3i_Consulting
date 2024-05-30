@@ -11,7 +11,7 @@ function TestimonialsSection(){
     return(<>
      <div classname="container-fluid testimonialSection">
         <div className="text-center mb-5 testimonialHeader">
-            <h1>Trusted by Thousands <br/> of Happy Customer</h1>
+            <h1 >Trusted by Thousands <br/> of Happy Customer</h1>
             <p>These are the stories of our customers who have joined us with great <br/>
                  pleasure when using our crazy services.</p>
         </div>

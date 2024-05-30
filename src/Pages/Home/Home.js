@@ -11,7 +11,8 @@ import OurProjects from "./OurProjects";
 import Gallery from "./Gallery";
 import FAQs from "./FAQs";
 import HomeContactUs from "./HomeContactUs";
-
+import Img from '../../Assets/Images/image 132.png';
+import HeroSection from "../../Components/HeroSection/HeroSection";
 
 
 
@@ -22,6 +23,7 @@ function Home(){
 
 
     return(<>
+    <HeroSection img={Img}/>
     <InfoSection/>
     <Home_AboutUs/>
     <Home_Services/>

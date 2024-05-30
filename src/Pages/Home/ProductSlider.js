@@ -16,7 +16,7 @@ function ProductSlider(){
     <div classname="container-fluid my-2">
     <div className=' mb-5 sliderSectionContent text-center'>
             <h6> <img className='mb-1' src={squareBlueBox}/> Our Project </h6>
-            <h1>Explore Our Comprehensive Range of <br/> Services</h1>
+            <h1 className="font-weight-bold">Explore Our Comprehensive Range of <br/> Services</h1>
         </div>
 
     <div id="carouselExampleControls" class="carousel slide" data-intervall="false">

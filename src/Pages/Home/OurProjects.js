@@ -15,7 +15,7 @@ function OurProjects(){
     <div className='container-fluid p-0 projectsSection'>
         <div className='projectsSectionContent text-center'>
             <h6> <img className='mb-1' src={squareBlueBox}/> Our Project </h6>
-            <h1 className='mb-3'>Digital Public Infrastructure <br/> Projects</h1>
+            <h1 className='mb-3 font-weight-bold'>Digital Public Infrastructure <br/> Projects</h1>
             <h5 className='mb-5'>Explore our showcased projects below</h5>
         </div>
         <div id="carouselExampleControl2" class="carousel slide" data-intervall="false">

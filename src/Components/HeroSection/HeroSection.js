@@ -1,14 +1,13 @@
 import React from "react";
 
 
-import Img from '../../Assets/Images/image 132.png';
 import nextIcon from '../../Assets/Images/Back Arrow.png';
 import prevIcon from '../../Assets/Images/Back Arrow (1).png';
 
 
 import './HeroSection.css';
 
-function HeroSection(){
+function HeroSection(props){
 
 
     return(<>
@@ -23,16 +22,16 @@ function HeroSection(){
   </ol> 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src={Img} alt="First slide"/>
+      <img class="d-block w-100" src={props.img} alt="First slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={Img} alt="Second slide"/>
+      <img class="d-block w-100" src={props.img} alt="Second slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={Img} alt="Third slide"/>
+      <img class="d-block w-100" src={props.img} alt="Third slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={Img} alt="fourth slide"/>
+      <img class="d-block w-100" src={props.img} alt="fourth slide"/>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

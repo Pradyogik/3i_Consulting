@@ -14,16 +14,16 @@ function OurProducts(){
         <div className="productContentContainer">
             <h5 className="mb-3"> <img className="mb-1 mr-2" src={blueSquareImg}/> Our Products</h5>
             <div style={{borderRight: '3px solid #33B1E9'}} className="productText">
-                <h2> <img src={Logo3}/> Temple Management System</h2>
+                <h2 className="font-weight-bold"> <img src={Logo3}/> Temple Management System</h2>
                 <p>Our technical consultancy services provide expert guidance and support to help you navigate complex technological challenges, ensuring optimal performance and efficiency.</p>
             </div>
             <div className="productText">
-                <h2> <img src={Logo1}/> HRMS Solutions</h2>
+                <h2 className="font-weight-bold"> <img src={Logo1}/> HRMS Solutions</h2>
                 <p>Our SAP solutions empower businesses by leveraging advanced technology to streamline operations, boost productivity, and fuel expansion.</p>
             </div>
 
             <div className="productText">
-                <h2><img src={Logo2}/> Project Management System</h2>
+                <h2 className="font-weight-bold"><img src={Logo2}/> Project Management System</h2>
                 <p>Our mobile solutions leverage the latest advancements in mobile technology to create intuitive and engaging experiences for your users, enabling you to reach them anytime, anywhere.</p>
             </div>
 
