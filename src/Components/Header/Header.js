@@ -38,7 +38,7 @@ function Header() {
               <NavLink className="nav-link" to="/about" onClick={() => setActive('/about')}>About Us</NavLink>
             </li>
             <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <NavLink className="nav-link dropdown-toggle" to="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </NavLink>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">

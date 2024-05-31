@@ -9,7 +9,7 @@ import ladyImg from "../../Assets/Images/image 135.png";
 function HomeContactUs() {
   return (
     <>
-      <div className="container-fluid d-flex justify-content-center homeContactSection">
+      <div className="container-fluid d-flex justify-content-center mt-5 homeContactSection">
         <div className="hContactContent mt-2">
           <h5 className="mb-3">
             {" "}

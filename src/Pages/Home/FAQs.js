@@ -10,7 +10,7 @@ function FAQs() {
           <h1 className="font-weight-bold">FAQ's</h1>
         </div>
         <div>
-          <div class="container-fluid">
+          <div class="container-fluid faqAccordianDiv">
             <div>
               <h5 className="font-weight-bold">Frequently Asked Questions</h5>
               <p className="text-muted text-left">

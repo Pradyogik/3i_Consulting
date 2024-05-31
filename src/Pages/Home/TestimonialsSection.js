@@ -1,11 +1,17 @@
 import React from "react";
 import './Home.css';
-import testimonialProfile from '../../Assets/Images/testimonialProfile.png';
+import testimonialProfile1 from '../../Assets/Images/Ellipse 175.png';
+import testimonialProfile2 from '../../Assets/Images/testimonialProfile.png';
+import testimonialProfile3 from '../../Assets/Images/Ellipse 176.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft} from "@fortawesome/free-solid-svg-icons/faChevronLeft";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import semicolon from '../../Assets/Images/“.svg';
 import whiteSemiColon from '../../Assets/Images/“.png';
+
+
+
 
 function TestimonialsSection(){
     return(<>
@@ -23,15 +29,14 @@ function TestimonialsSection(){
 
               <div class="card p-3 testimonialCard">
                 <div className="imgBox ">
-                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile} alt="Card image cap"/>
+                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile1} alt="Card image cap"/>
                 <div className="imgContentBox">
-                <h5 className="">Girish pati Tripathi</h5>
-                <p> Mayor, Ayodhya </p>
+                <h5 className="">Vishal Singh</h5>
+                <p> DM, Bhadohi </p>
                 </div>
                 </div>
                 <div class="card-body testimonialBody">
-                  <p class="card-text testimonialText">Our web solutions are designed to help your business thrive in the digital landscape, providing user-friendly interfaces and seamless functionality.
-                  
+                  <p class="card-text testimonialText">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community
                   </p>
                   <div className="d-flex justify-content-end">
                  <img className="" src={semicolon} /> 
@@ -45,15 +50,14 @@ function TestimonialsSection(){
 
             <div class="card p-3 testimonialCard">
                 <div className="imgBox ">
-                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile} alt="Card image cap"/>
+                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile2} alt="Card image cap"/>
                 <div className="imgContentBox">
                 <h5 className="">Girish pati Tripathi</h5>
                 <p> Mayor, Ayodhya </p>
                 </div>
                 </div>
                 <div class="card-body testimonialBody">
-                  <p class="card-text testimonialText">Our web solutions are designed to help your business thrive in the digital landscape, providing user-friendly interfaces and seamless functionality.
-                  
+                  <p class="card-text testimonialText">Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.
                   </p>
                   <div className="d-flex justify-content-end">
                  <img className="svgImg"  src={whiteSemiColon} /> 
@@ -68,15 +72,14 @@ function TestimonialsSection(){
 
             <div class="card p-3 testimonialCard">
                 <div className="imgBox ">
-                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile} alt="Card image cap"/>
+                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile3} alt="Card image cap"/>
                 <div className="imgContentBox">
-                <h5 className="">Girish pati Tripathi</h5>
-                <p> Mayor, Ayodhya </p>
+                <h5 className="">Vishwa Bhusan Mishra</h5>
+                <p> CEO, SKVT </p>
                 </div>
                 </div>
                 <div class="card-body testimonialBody">
-                  <p class="card-text testimonialText">Our web solutions are designed to help your business thrive in the digital landscape, providing user-friendly interfaces and seamless functionality.
-                  
+                  <p class="card-text testimonialText">Estate planning is crucial, and they made the process seamless and stress-free. I can rest assured knowing family's future is secure
                   </p>
                   <div className="d-flex justify-content-end">
                  <img className="" src={semicolon} /> 
@@ -96,15 +99,14 @@ function TestimonialsSection(){
 
             <div class="card p-3 testimonialCard">
                 <div className="imgBox ">
-                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile} alt="Card image cap"/>
+                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile1} alt="Card image cap"/>
                 <div className="imgContentBox">
-                <h5 className="">Girish pati Tripathi</h5>
-                <p> Mayor, Ayodhya </p>
+                <h5 className="">Vishal Singh</h5>
+                <p> DM, Bhadohi </p>
                 </div>
                 </div>
                 <div class="card-body testimonialBody">
-                  <p class="card-text testimonialText">Our web solutions are designed to help your business thrive in the digital landscape, providing user-friendly interfaces and seamless functionality.
-                  
+                  <p class="card-text testimonialText">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community
                   </p>
                   <div className="d-flex justify-content-end">
                  <img className="" src={semicolon} /> 
@@ -118,15 +120,14 @@ function TestimonialsSection(){
 
             <div class="card p-3 testimonialCard">
                 <div className="imgBox ">
-                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile} alt="Card image cap"/>
+                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile2} alt="Card image cap"/>
                 <div className="imgContentBox">
                 <h5 className="">Girish pati Tripathi</h5>
                 <p> Mayor, Ayodhya </p>
                 </div>
                 </div>
                 <div class="card-body testimonialBody">
-                  <p class="card-text testimonialText">Our web solutions are designed to help your business thrive in the digital landscape, providing user-friendly interfaces and seamless functionality.
-                  
+                  <p class="card-text testimonialText">Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.
                   </p>
                   <div className="d-flex justify-content-end">
                  <img className="" src={whiteSemiColon} /> 
@@ -139,15 +140,14 @@ function TestimonialsSection(){
 
             <div class="card p-3 testimonialCard">
                 <div className="imgBox ">
-                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile} alt="Card image cap"/>
+                <img class="card-img-round mr-4 testimonialImg" src={testimonialProfile3} alt="Card image cap"/>
                 <div className="imgContentBox">
-                <h5 className="">Girish pati Tripathi</h5>
-                <p> Mayor, Ayodhya </p>
+                <h5 className="">Vishwa Bhusan Mishra</h5>
+                <p> CEO, SKVT </p>
                 </div>
                 </div>
                 <div class="card-body testimonialBody">
-                  <p class="card-text testimonialText">Our web solutions are designed to help your business thrive in the digital landscape, providing user-friendly interfaces and seamless functionality.
-                  
+                  <p class="card-text testimonialText">Estate planning is crucial, and they made the process seamless and stress-free. I can rest assured knowing family's future is secure
                   </p>
                   <div className="d-flex justify-content-end">
                  <img className="" src={semicolon} /> 

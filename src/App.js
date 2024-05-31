@@ -5,7 +5,10 @@ import HeroSection from './Components/HeroSection/HeroSection';
 import Home from './Pages/Home/Home';
 import Footer from './Components/Footer/Footer';
 import { Route, Routes } from 'react-router';
-import ContactUs from './Pages/Contact/ContactUs';
+import AboutUs from './Pages/About/AboutUs';
+import Contact from './Pages/Contact/Contact';
+import Services from './Pages/Services/Services';
+
 
 
 function App() {
@@ -14,7 +17,10 @@ function App() {
     <Header/>
       <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/contact' element={<ContactUs/>}/>
+          <Route path='/about' element={<AboutUs/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/services' element={<Services/>}/>
+
       </Routes>
     <Footer/>
     </div>

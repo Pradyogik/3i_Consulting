@@ -976,8 +976,10 @@ left: 4em;
   }  
 
 /* choose us section */
-.chooseUsRow{
+.chooseUsRow {
     justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .chooseUsCard{
     border-radius: 25px;
@@ -1129,8 +1131,9 @@ margin: auto;
     flex: 0 0 30.333333%;
     max-width: 30.333333%;
 }
-.projectRow{
+.projectRow {
     justify-content: center;
+    margin: 1rem 0;
 }
 .projectCard{
     border: 2px solid #33B1E9;
@@ -1191,6 +1194,33 @@ font-weight: 700;
         margin: .5rem 0;
     }
   } 
+  /* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .projectCard{
+        height: 450px;
+    }
+  }
+  /* Tablets (Landscape) */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .projectCard{
+        height: 450px;
+    }
+  }
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .projectCard{
+        height: 450px;
+    }
+  }
+  
+  /* Medium to Large Desktops */
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .projectCard{
+        height: 450px;
+    }
+  }
+  
   /* Large Desktops and TVs */
   @media only screen and (min-width: 1440px) and (max-width: 2000px) {
     .projectsSectionContent h1{
@@ -1210,6 +1240,9 @@ font-weight: 700;
     }
     .projectCardBody p>span{
         font-size: 1.3rem;
+    }
+    .projectCard{
+        height: 550px;
     }
   }
   @media only screen and (min-width: 2001px){
@@ -1335,6 +1368,22 @@ font-weight: 700;
     /* symbol for "collapsed" panels */
     content: "\f067"; 
 }
+/* Large Desktops and TVs */
+@media only screen and (min-width: 1440px) {
+    .faqAccordianDiv h5{
+        font-size: 2rem !important;
+    }
+    .faqAccordianDiv p{
+    font-size: 1.5rem;
+    }
+    .faqAccordianDiv .card-title{
+    font-size: 1.5rem;
+    }
+    .faqAccordianDiv button{
+    font-size: 1.5rem;
+
+    }
+  }
 /* contact section starts here */
 .homeContactSection{
     background-image: url('../../Assets/Images/Contact\ us.png');
@@ -1342,6 +1391,7 @@ font-weight: 700;
     background-size: cover;
     background-position: 100% 100%;
    font-family: 'poppins' , sans-serif ;
+   position: relative;
 
 }
 .hContactForm{
@@ -1351,7 +1401,7 @@ font-weight: 700;
     padding: 1rem;
     height: fit-content;
     box-shadow: #bae5f8 0px 2px 8px 0px;
-
+    
 }
 .hContactForm button{
     color: white;
@@ -1363,13 +1413,19 @@ font-weight: 700;
     border-radius: 10px;
 
 }
+.hContactImg{
+    position: relative;
+    left: 2.5rem;
+}
 /* Mobile Phones (Portrait) */
 @media only screen and (max-width: 480px) {
     .homeContactSection{
         flex-direction: column;
     }
     .hContactImg{
-        width: 100% !important;
+        /* width: 100% !important; */
+    display: none;
+
     }
   }
   
@@ -1379,14 +1435,17 @@ font-weight: 700;
         flex-direction: column;
     }
     .hContactImg{
-        width: 100% !important;
+        /* width: 100% !important; */
+    display: none;
+
     }
   }
   
   /* Tablets (Portrait) */
   @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hContactImg{ 
-    width: 47% !important;
+    /* width: 47% !important; */
+    display: none;
   }
   }
   

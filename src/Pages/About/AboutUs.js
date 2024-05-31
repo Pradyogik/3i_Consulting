@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactUs.css";
+import "./AboutUs.css";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import heroBanner from "../../Assets/Images/Banner.png";
 import img1 from "../../Assets/Images/Image Content.png";
@@ -10,7 +10,7 @@ import expertImg from "../../Assets/Images/1.png";
 import expertImg2 from "../../Assets/Images/2(2).png";
 import expertImg3 from "../../Assets/Images/Group 11670.png";
 
-function ContactUs() {
+function AboutUs() {
   return (
     <>
       <HeroSection img={heroBanner} />
@@ -177,4 +177,4 @@ function ContactUs() {
   );
 }
 
-export default React.memo(ContactUs);
+export default React.memo(AboutUs);
