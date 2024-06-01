@@ -30,7 +30,7 @@ function Home_Services(){
         </div> 
 
         <div class="container  mt-5">
-    <div class="row">
+    <div class="row home_ServicesRow">
         <div class="col-md-3 col-sm-6">
             <NavLink to={'/'}>
             <div class="service-box">
@@ -109,11 +109,10 @@ function Home_Services(){
             </NavLink>
         </div>
         <div class="col-md-3 col-sm-6">
-        <NavLink to={'/'}>
+        <NavLink to={'/services'}>
             <div class="service-box lastServiceBox">
                 <i class="icon">
                 <img src={moreImg} />
-
                 </i>
                 <h4>More <br/> Services</h4>
             </div>

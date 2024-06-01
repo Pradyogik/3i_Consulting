@@ -455,7 +455,6 @@ left: 4em;
 }
 .Home_Services h6{
     color: black;
-
 }
 .service-box {
     background-color: #343a40;
@@ -486,6 +485,9 @@ left: 4em;
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .service-box h4{
         font-size: 1rem;
+    }
+    .home_ServicesRow{
+        justify-content: center !important;
     }
   }
 

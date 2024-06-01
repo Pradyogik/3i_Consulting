@@ -7,8 +7,8 @@ import Footer from './Components/Footer/Footer';
 import { Route, Routes } from 'react-router';
 import AboutUs from './Pages/About/AboutUs';
 import Contact from './Pages/Contact/Contact';
-import Services from './Pages/Services/Services';
-
+import Products from './Pages/Products/Products';
+import Service from './Pages/Service/Service';
 
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<AboutUs/>}/>
           <Route path='/contact' element={<Contact/>}/>
-          <Route path='/services' element={<Services/>}/>
+          <Route path='/products' element={<Products/>}/>
+          <Route path='/services' element={<Service/>}/>
 
       </Routes>
     <Footer/>
