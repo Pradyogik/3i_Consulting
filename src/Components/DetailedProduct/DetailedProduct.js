@@ -16,12 +16,20 @@ import { Link } from "react-router-dom";
 
 function DetailedProduct(props){
    
-  const params = useParams();
-  const p_id = params.pId
-  console.log(p_id);
-  const products = AllProduct.find(function(){
-    return p_id
-  }) 
+  // const params = useParams();
+  // const p_id = params.pId
+  // // console.log(p_id);
+  // const products = AllProduct.find(function(){
+  //   return p_id
+  // })
+// console.log(products);
+
+const params = useParams();
+const p_id = params.pId;
+
+// Assuming AllProduct is an array of product objects and each product has an 'id' field
+const products = AllProduct.find(product => product.id === p_id);
+
 console.log(products);
 
     return(<>
