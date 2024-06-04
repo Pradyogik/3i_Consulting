@@ -49,7 +49,7 @@ function Header() {
               </div>
             </li>
             <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <NavLink className="nav-link dropdown-toggle" to="/products" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Products
               </NavLink>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">

@@ -16,7 +16,8 @@ import s11Img from "../../Assets/Images/e-dak-bg.png";
 import s12Img from "../../Assets/Images/visitor-mngt.png";
 import s13Img from "../../Assets/Images/beneficiary-mngt.png";
 import s14Img from "../../Assets/Images/e-pass-bg.png";
-
+import { Link } from "react-router-dom";
+import {AllProduct } from '../../Context/AllProduct';
 
 
 
@@ -51,7 +52,7 @@ function Products() {
                 and draw on the best knowledge and expertise to help you
                 navigate your way forward.
               </p>
-              <button className="btn">Read More</button>
+              <button className="btn"><Link to={`/detailed/${AllProduct[0].id}`}>Read More</Link></button>
             </div>
           </div>
         </div>
@@ -64,7 +65,7 @@ function Products() {
               From automation to advanced analytics and seamless experiences, we can embed AI in business. We'll deliver new operating models and strategic intelligence for smart processes and data-driven decisions.
               </p>
               <p className="text-muted"> What, Why and How?</p>
-              <button className="btn ">Read More</button>
+              <button className="btn "><Link>Read More</Link></button>
             </div>
           </div>
           <div className=" productSectionAImg">
@@ -94,7 +95,7 @@ function Products() {
                 and draw on the best knowledge and expertise to help you
                 navigate your way forward.
               </p>
-              <button className="btn">Read More</button>
+              <button className="btn"><Link>Read More</Link></button>
             </div>
           </div>
         </div>
@@ -107,7 +108,7 @@ function Products() {
               From automation to advanced analytics and seamless experiences, we can embed AI in business. We'll deliver new operating models and strategic intelligence for smart processes and data-driven decisions.
               </p>
               <p className="text-muted"> What, Why and How?</p>
-              <button className="btn btn2">Read More</button>
+              <button className="btn btn2"><Link>Read More</Link></button>
             </div>
           </div>
           <div className="serviceSection4Img productSectionAImg">
@@ -135,7 +136,7 @@ function Products() {
                 and draw on the best knowledge and expertise to help you
                 navigate your way forward.
               </p>
-              <button className="btn btn1">Read More</button>
+              <button className="btn btn1"><Link>Read More</Link></button>
             </div>
           </div>
         </div>
@@ -148,7 +149,7 @@ function Products() {
               From automation to advanced analytics and seamless experiences, we can embed AI in business. We'll deliver new operating models and strategic intelligence for smart processes and data-driven decisions.
               </p>
               <p className="text-muted"> What, Why and How?</p>
-              <button className="btn btn1">Read More</button>
+              <button className="btn btn1"><Link>Read More</Link></button>
             </div>
           </div>
           <div className="serviceSection6Img productSectionAImg">
@@ -176,7 +177,7 @@ function Products() {
                 and draw on the best knowledge and expertise to help you
                 navigate your way forward.
               </p>
-              <button className="btn btn1">Read More</button>
+              <button className="btn btn1"><Link>Read More</Link></button>
             </div>
           </div>
         </div>
@@ -189,7 +190,7 @@ function Products() {
               From automation to advanced analytics and seamless experiences, we can embed AI in business. We'll deliver new operating models and strategic intelligence for smart processes and data-driven decisions.
               </p>
               <p className="text-muted"> What, Why and How?</p>
-              <button className="btn btn2">Read More</button>
+              <button className="btn btn2"><Link>Read More</Link></button>
             </div>
           </div>
           <div className="serviceSection8Img productSectionAImg">
@@ -217,7 +218,7 @@ function Products() {
                 and draw on the best knowledge and expertise to help you
                 navigate your way forward.
               </p>
-              <button className="btn btn1">Read More</button>
+              <button className="btn btn1"><Link>Read More</Link></button>
             </div>
           </div>
         </div>
@@ -230,7 +231,7 @@ function Products() {
               From automation to advanced analytics and seamless experiences, we can embed AI in business. We'll deliver new operating models and strategic intelligence for smart processes and data-driven decisions.
               </p>
               <p className="text-muted"> What, Why and How?</p>
-              <button className="btn btn2">Read More</button>
+              <button className="btn btn2"><Link>Read More</Link></button>
             </div>
           </div>
           <div className="productSection10Img productSectionAImg">
@@ -258,7 +259,7 @@ function Products() {
                 and draw on the best knowledge and expertise to help you
                 navigate your way forward.
               </p>
-              <button className="btn btn1">Read More</button>
+              <button className="btn btn1"><Link>Read More</Link></button>
             </div>
           </div>
         </div>
@@ -271,7 +272,7 @@ function Products() {
               From automation to advanced analytics and seamless experiences, we can embed AI in business. We'll deliver new operating models and strategic intelligence for smart processes and data-driven decisions.
               </p>
               <p className="text-muted"> What, Why and How?</p>
-              <button className="btn btn2">Read More</button>
+              <button className="btn btn2"><Link>Read More</Link></button>
             </div>
           </div>
           <div className="productSection12Img productSectionAImg">
@@ -299,7 +300,7 @@ function Products() {
                 and draw on the best knowledge and expertise to help you
                 navigate your way forward.
               </p>
-              <button className="btn btn2">Read More</button>
+              <button className="btn btn2"><Link>Read More</Link></button>
             </div>
           </div>
         </div>
@@ -312,7 +313,7 @@ function Products() {
               From automation to advanced analytics and seamless experiences, we can embed AI in business. We'll deliver new operating models and strategic intelligence for smart processes and data-driven decisions.
               </p>
               <p className="text-muted"> What, Why and How?</p>
-              <button className="btn btn1">Read More</button>
+              <button className="btn btn1"><Link>Read More</Link></button>
             </div>
           </div>
           <div className="productSection12Img productSectionAImg">

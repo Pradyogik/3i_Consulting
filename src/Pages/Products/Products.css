@@ -22,10 +22,14 @@
     
 }
 .productSectionAContent button{
-    color: white;
+    color: white !important;
     background-color: #33B1E9;
     font-weight: 300;
     margin-top: 2rem;
+}
+.productSectionAContent a{
+    color: white !important;
+    text-decoration: none !important;
 }
 .btn2{
     margin-top: 4.5rem !important;

@@ -4,13 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import { ProductContext } from './Context/Context';
+import { AllProduct } from './Context/AllProduct';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+    <ProductContext.Provider value={AllProduct}>
+
     <BrowserRouter>
     <App />
    </BrowserRouter>
+
+   </ProductContext.Provider>
+
   
 );
 
