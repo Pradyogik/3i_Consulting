@@ -37,7 +37,13 @@ function Header() {
             <li className={`nav-item ${active === '/about' ? 'active' : ''}`}>
               <NavLink className="nav-link" to="/about" onClick={() => setActive('/about')}>About Us</NavLink>
             </li>
-            <li className="nav-item dropdown">
+            <li className={`nav-item ${active === '/services' ? 'active' : ''}`}>
+              <NavLink className="nav-link" to="/services" onClick={() => setActive('/services')}>Services</NavLink>
+            </li>
+            <li className={`nav-item ${active === '/products' ? 'active' : ''}`}>
+              <NavLink className="nav-link" to="/products" onClick={() => setActive('/products')}>Products</NavLink>
+            </li>
+            {/* <li className="nav-item dropdown">
               <NavLink className="nav-link dropdown-toggle" to="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </NavLink>
@@ -47,8 +53,8 @@ function Header() {
                 <div className="dropdown-divider"></div>
                 <NavLink className="dropdown-item" to="/abc" onClick={() => setActive('/services/something-else')}>Something else here</NavLink>
               </div>
-            </li>
-            <li className="nav-item dropdown">
+            </li> */}
+            {/* <li className="nav-item dropdown">
               <NavLink className="nav-link dropdown-toggle" to="/products" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Products
               </NavLink>
@@ -58,7 +64,7 @@ function Header() {
                 <div className="dropdown-divider"></div>
                 <NavLink className="dropdown-item" to="/cde" onClick={() => setActive('/products/something-else')}>Something else here</NavLink>
               </div>
-            </li>
+            </li> */}
             <li className={`nav-item ${active === '/portfolio' ? 'active' : ''}`}>
               <NavLink className="nav-link" to="/portfolio" onClick={() => setActive('/portfolio')}>Portfolio</NavLink>
             </li>

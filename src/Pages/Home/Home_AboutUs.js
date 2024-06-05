@@ -6,8 +6,8 @@ import yearsImg from '../../Assets/Images/Group 11652.png';
 import { NavLink } from "react-router-dom";
 import aboutImg832 from '../../Assets/Images/Rectangle 832.png';
 import aboutImg833 from '../../Assets/Images/Rectangle 833.png';
-import aboutImg834 from '../../Assets/Images/Rectangle 834.png';
-import aboutImg69 from '../../Assets/Images/Frame 69.png'
+import aboutImg834 from '../../Assets/Images/aboutUs-3rd-img.png';
+// import aboutImg69 from '../../Assets/Images/Frame 69.png'
 import './Home.css';
 
 
@@ -18,7 +18,7 @@ function Home_AboutUs(){
 
 
     return(<>
-    <div className=" Home_AboutUsContainer p-0 container-fluid">
+    <div className=" Home_AboutUsContainer p-0 my-5 container-fluid">
         <div className="squareImgDiv ml-auto">
             <img style={{width: '100%' , height: '100%' , objectFit: 'cover'}} src={squareImg} />
         </div>
@@ -26,19 +26,19 @@ function Home_AboutUs(){
 
         <div className="Home_AboutUsImgContainer">
         <div> <img src={aboutImg832}/></div>
-        <div>
+        <div className="">
             <img src={aboutImg832}/>
             {/* <video></video> */}
             </div>
         <div><img src={aboutImg834}/></div>
-        <div><img src={aboutImg69}/></div>
+        {/* <div><img src={aboutImg69}/></div> */}
 
 
         </div>
 
 
         <div className="Home_AboutUsContentContainer">
-            <div className="d-flex ">
+            <div className="d-flex squareBox">
             <img style={{width : '10px' , height: '10px' , marginRight : '5px', marginTop : '8px'}} src={liImg}/>
             <li>About Us</li>
             </div>
