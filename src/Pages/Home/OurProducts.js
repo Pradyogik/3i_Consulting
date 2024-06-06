@@ -13,7 +13,7 @@ function OurProducts(){
     <div className="container-fluid py-5 productContainer">
         <div className="productContentContainer">
             <h5 className="mb-3"> <img className="mb-1 mr-2" src={blueSquareImg}/> Our Products</h5>
-            <div style={{borderRight: '3px solid #33B1E9'}} className="productText">
+            <div  className="productText borderedContent">
                 <h2 className="font-weight-bold"> <img src={Logo3}/> Temple Management System</h2>
                 <p>Our technical consultancy services provide expert guidance and support to help you navigate complex technological challenges, ensuring optimal performance and efficiency.</p>
             </div>
@@ -29,7 +29,7 @@ function OurProducts(){
 
         </div>
         <div className="productImgContainer">
-           <img src={templeImg}/> 
+           <img className="img " src={templeImg}/> 
         </div>
     </div>
     <div className="productFooterBg">
