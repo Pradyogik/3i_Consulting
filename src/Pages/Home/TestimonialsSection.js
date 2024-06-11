@@ -7,8 +7,8 @@ import testimonialProfile3 from '../../Assets/Images/Ellipse 176.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft} from "@fortawesome/free-solid-svg-icons/faChevronLeft";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import semicolon from '../../Assets/Images/“.svg';
-import whiteSemiColon from '../../Assets/Images/“.png';
+import semicolon from '../../Assets/Images/inverted.svg';
+import whiteSemiColon from '../../Assets/Images/whiteInverted.png';
 
 
 
@@ -161,15 +161,15 @@ function TestimonialsSection(){
         </div>
 
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControl" role="button" data-slide="prev">
+      <a class="carousel-control-prev reviewLeftAnchor" href="#carouselExampleControl" role="button" data-slide="prev">
         {/* <span class="carousel-control-prev-icon" aria-hidden="true"> */}
-        <FontAwesomeIcon className="leftArrow" style={{color : 'black' , height: '50px', marginRight: '3rem'}} icon={faChevronLeft} />
+        <FontAwesomeIcon className="reviewLeftArrow" style={{color : 'black' , height: '50px', marginRight: '3rem'}} icon={faChevronLeft} />
         {/* </span> */}
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControl" role="button" data-slide="next">
+      <a class="carousel-control-next reviewRightAnchor" href="#carouselExampleControl" role="button" data-slide="next">
         {/* <span class="carousel-control-next-icon" aria-hidden="true"> */}
-        <FontAwesomeIcon className="rightArrow" style={{color : 'black' , height: '50px' , marginLeft: '3rem'}} icon={faChevronRight} />
+        <FontAwesomeIcon className="reviewRightArrow" style={{color : 'black' , height: '50px' , marginLeft: '3rem'}} icon={faChevronRight} />
         {/* </span> */}
         <span class="sr-only">Next</span>
       </a>

@@ -12,6 +12,7 @@ import helpdeskImg from '../../Assets/Images/Group 11653.svg';
 import serverImg from '../../Assets/Images/Group 11659.svg';
 import { NavLink } from "react-router-dom";
 import LatestTechnology from "./LatestTechnology";
+import Hero from '../../Components/Hero'
 
 
 
@@ -27,7 +28,7 @@ function Service(){
     };
 
     return(<>
-    <HeroSection img={serviceBanner}/>
+    <Hero bannerImg={serviceBanner}/>
     <div className="container-fluid pb-4 my-5 ServiceSection">
        <div className="text-center pt-5">
         <h6 className=""> <img src={blueSquareImg}/> We Are Expertise In </h6>

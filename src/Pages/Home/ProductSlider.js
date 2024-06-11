@@ -15,7 +15,7 @@ function ProductSlider(){
     return(<>
     <div classname="container-fluid my-2">
     <div className=' mb-5 sliderSectionContent text-center'>
-            <h6> <img className='mb-1' src={squareBlueBox}/> Our Project </h6>
+            <h5> <img className='mb-1' src={squareBlueBox}/> Our Product </h5>
             <h1 className="font-weight-bold">Explore Our Comprehensive Range of <br/> Services</h1>
         </div>
 
@@ -115,13 +115,13 @@ function ProductSlider(){
         </div>
 
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <a class="carousel-control-prev sliderPrev" href="#carouselExampleControls" role="button" data-slide="prev">
         {/* <span class="carousel-control-prev-icon" aria-hidden="true"> */}
         <FontAwesomeIcon className="leftArrow" style={{color : 'black' , height: '50px', marginRight: '3rem'}} icon={faChevronLeft} />
         {/* </span> */}
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <a class="carousel-control-next sliderNext" href="#carouselExampleControls" role="button" data-slide="next">
         {/* <span class="carousel-control-next-icon" aria-hidden="true"> */}
         <FontAwesomeIcon className="rightArrow" style={{color : 'black' , height: '50px' , marginLeft: '3rem'}} icon={faChevronRight} />
         {/* </span> */}

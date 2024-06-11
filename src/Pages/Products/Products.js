@@ -18,6 +18,7 @@ import s13Img from "../../Assets/Images/beneficiary-mngt.png";
 import s14Img from "../../Assets/Images/e-pass-bg.png";
 import { Link } from "react-router-dom";
 import { ProductContext } from "../../Context/Context";
+import Hero from '../../Components/Hero'
 
 
 
@@ -30,21 +31,12 @@ import { ProductContext } from "../../Context/Context";
 
 
 function Products() {
-  // // console.log(AllProduct[2].id , `/detailed/${AllProduct[2].id}`);
+
   const productLink = useContext(ProductContext);
-  // console.log(productLink.products[0].id);
 
-  // const  productLink  = useContext(ProductContext);
-  // const firstProduct = productLink.products[0];
-  // const secondProduct = productLink.products[1];
-  // const thirdProduct = productLink.products[0];
-  // const fourthProduct = productLink.products[0];
-
-
-  // console.log(productLink.products);
   return (
     <>
-      <HeroSection img={productBG} />
+      <Hero bannerImg={productBG} />
       <div className="productSection mt-5 container-fluid">
         <div className="container-fluid px-5 my-5 productSection1 p-0 productSectionA">
           <div className="productSection1Img productSectionAImg">

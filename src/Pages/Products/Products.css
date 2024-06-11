@@ -38,7 +38,7 @@
     margin-top: 6rem !important;
 }
 /* Mobile Phones (Portrait) */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 480px) {
     .productSectionA{
         flex-direction: column;
         padding: 0 !important;
@@ -53,7 +53,92 @@
     .productSectionAContent div{
         margin: 0 0 1rem 0 !important;   
     }
+    .productSectionAContent h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem !important;
+    }
+    .productSectionAContent p{
+        font-size: .7rem;
+    }
+    .productSectionAContent button{
+        font-size: .7rem;
+
+    }
   }
+  
+  /* Mobile Phones (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .productSectionA{
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .productSectionAImg{
+        width: 100%;
+    }
+    .productSectionAContent{
+        width: 100%;
+         
+    }
+    .productSectionAContent div{
+        margin: 0 0 1rem 0 !important;   
+    }
+    .productSectionAContent h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem !important;
+    }
+    .productSectionAContent p{
+        font-size: .8rem;
+    }
+    .productSectionAContent button{
+        font-size: .8rem;
+
+    }
+  }
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .productSectionA{
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .productSectionAImg{
+        width: 100%;
+    }
+    .productSectionAContent{
+        width: 100%;
+         
+    }
+    .productSectionAContent div{
+        margin: 0 0 1rem 0 !important;   
+    }
+    .productSectionAContent h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem !important;
+    }
+    .productSectionAContent p{
+        font-size: .9rem;
+    }
+    .productSectionAContent button{
+        font-size: .9rem;
+
+    }
+  }
+/* @media only screen and (max-width: 991px) {
+    .productSectionA{
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .productSectionAImg{
+        width: 100%;
+    }
+    .productSectionAContent{
+        width: 100%;
+         
+    }
+    .productSectionAContent div{
+        margin: 0 0 1rem 0 !important;   
+    }
+  } */
   
   
   /* Tablets (Landscape) */
@@ -82,6 +167,18 @@
     .productSectionAContent div{
         margin-left: 0.5rem !important;   
     }
+    .productSectionAContent h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem !important;
+        margin-top: 1rem !important;
+    }
+    .productSectionAContent p{
+        font-size: .9rem;
+    }
+    .productSectionAContent button{
+        font-size: .9rem;
+
+    }
     
   }
   
@@ -91,7 +188,6 @@
         padding: 0 !important;
      
     }
- 
     .productSectionAImg{
         width: 50%;
     }
@@ -114,6 +210,18 @@
     .productSectionAContent div{
         margin-left: 0.5rem !important;   
     }
+    .productSectionAContent h2 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem !important;
+        margin-top: 1rem !important;
+    }
+    .productSectionAContent p{
+        font-size: .9rem;
+    }
+    .productSectionAContent button{
+        font-size: .9rem;
+
+    }
   }
   
   /* Medium to Large Desktops */
@@ -133,19 +241,41 @@
   }
   
   /* Large Desktops and TVs */
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1440px) and (max-width: 2000px) {
     .productSectionA{
         padding: 0 !important;
       
     }
     .productSectionAContent button{
-       font-size: 2rem !important;
+       font-size: 1rem !important;
     }
     .productSectionAContent h2{
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .productSectionAContent p{
-       font-size: 2rem;
+       font-size: 1rem;
+        
+    }
+    .productSectionAImg img{
+        object-fit: cover !important;
+        border-radius: 25px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 2001px)  {
+    .productSectionA{
+        padding: 0 !important;
+      
+    }
+    .productSectionAContent button{
+       font-size: 1.3rem !important;
+    }
+    .productSectionAContent h2{
+        font-size: 2.3rem;
+    }
+    .productSectionAContent p{
+       font-size: 1.3rem;
         
     }
     .productSectionAImg img{

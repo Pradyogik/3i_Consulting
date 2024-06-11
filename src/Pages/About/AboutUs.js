@@ -9,11 +9,13 @@ import img3 from "../../Assets/Images/13399716_Business_team_2 1.png";
 import expertImg from "../../Assets/Images/1.png";
 import expertImg2 from "../../Assets/Images/2(2).png";
 import expertImg3 from "../../Assets/Images/Group 11670.png";
+import Hero from '../../Components/Hero'
+
 
 function AboutUs() {
   return (
     <>
-      <HeroSection img={heroBanner} />
+      <Hero bannerImg={heroBanner} />
       <div className="contactContainer mt-5 p-0">
         <div className="container-fluid contactSection1 p-0">
           <div className="section1Img">

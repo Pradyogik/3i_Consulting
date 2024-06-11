@@ -1,5 +1,7 @@
 import React from "react";
 import './Home.css';
+import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 
 
 
@@ -9,6 +11,7 @@ import './Home.css';
 
 
 function InfoSection(){
+
 
     return(<>
   <div className="container-fluid infoSectionContainer d-flex align-items-center justify-content-center">
@@ -22,7 +25,7 @@ function InfoSection(){
             <span style={{color : '#0D98D9'}}> SAP solutions, mobile applications, digital media management</span>, and<span style={{color : '#0D98D9'}}> web development</span>. With a strong focus on building digital public infrastructure, we are committed to delivering innovative and reliable technology services.</p>
         </div>
         <div className="infoBtnContainer">
-            <button className="mr-3">Know More</button>
+            <button className="mr-3"><Link to={'/homeContact'}>Know More</Link></button>
             <button className="">Get Consulting</button>
         </div>
     </div>

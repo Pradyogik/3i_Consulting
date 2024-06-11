@@ -10,7 +10,7 @@ import Contact from './Pages/Contact/Contact';
 import Products from './Pages/Products/Products';
 import Service from './Pages/Service/Service';
 import DetailedProduct from './Components/DetailedProduct/DetailedProduct';
-// import { AllProduct } from './Context/AllProduct';
+import HomeContactUs from './Pages/Home/HomeContactUs';
 
 
 
@@ -24,6 +24,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<AboutUs/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/homeContact' element={<HomeContactUs/>}/>
           <Route path='/products' element={<Products/>}/>
           <Route path='/services' element={<Service/>}/>
           <Route path='/detailed/:pId' element={<DetailedProduct/>}/>
