@@ -1685,10 +1685,12 @@ margin: auto;
   
 /* our projects starts here */
 .col-md-4.projectCol{
-    -webkit-box-flex: 0;
+    /* -webkit-box-flex: 0;
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 30.333333%;
-    max-width: 30.333333%;
+    max-width: 30.333333%; */
+    flex: 0 0 33.333%;
+  display: flex;
 }
 .projectRow {
     justify-content: center;
@@ -1699,6 +1701,7 @@ margin: auto;
     box-shadow: #a3ddf5 0px 2px 15px 0px;
     border-radius: 15px;
     font-family: 'poppins' , sans-serif ;
+    flex: 0 0 100%;
 }
 .projectCardImg{
     border-radius: 12px 12px 0 0;
@@ -1783,31 +1786,31 @@ font-weight: 700;
     }
   } 
   /* Tablets (Portrait) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
     .projectCard{
         height: 450px;
     }
-  }
+  } */
   /* Tablets (Landscape) */
-@media only screen and (min-width: 992px) and (max-width: 1023px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1023px) {
     .projectCard{
         height: 450px;
     }
-  }
+  } */
   
   /* Small Laptops and Desktops */
-  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* @media only screen and (min-width: 1024px) and (max-width: 1199px) {
     .projectCard{
         height: 450px;
     }
-  }
+  } */
   
   /* Medium to Large Desktops */
-  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  /* @media only screen and (min-width: 1200px) and (max-width: 1439px) {
     .projectCard{
         height: 450px;
     }
-  }
+  } */
   
   /* Large Desktops and TVs */
   @media only screen and (min-width: 1440px) and (max-width: 2000px) {
@@ -1829,9 +1832,9 @@ font-weight: 700;
     .projectCardBody p>span{
         font-size: .9rem;
     }
-    .projectCard{
+    /* .projectCard{
         height: 550px;
-    }
+    } */
   }
   @media only screen and (min-width: 2001px){
     .projectsSectionContent h1{

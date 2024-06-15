@@ -158,6 +158,7 @@
     }
     
     .headerNavbar .navbar-nav{
+        margin-right: 0 !important;
         margin: 1rem 0;
     }
     .headerNavbar .navbar-nav li{
