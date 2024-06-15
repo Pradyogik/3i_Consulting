@@ -38,7 +38,7 @@ function Products() {
     <>
       <Hero bannerImg={productBG} />
       <div className="productSection mt-5 container-fluid">
-        <div className="container-fluid px-5 my-5 productSection1 p-0 productSectionA">
+        <div className="container px-5 my-5 productSection1 p-0 productSectionA">
           <div className="productSection1Img productSectionAImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -62,7 +62,7 @@ function Products() {
           </div>
         </div>
         {/* 2nd section */}
-        <div className="container-fluid px-5 my-5 serviceSection2 productSectionA ">
+        <div className="container px-5 my-5 serviceSection2 productSectionA ">
           <div className="productSection2Content productSectionAContent">
             <div className="mr-5">
               <h2 className="mt-3 mb-5">2. Human Resources Management System(HRMS)</h2>
@@ -82,7 +82,7 @@ function Products() {
         </div>
         {/* 3rd section */}
         
-        <div className="container-fluid px-5 my-5  p-0 productSectionA">
+        <div className="container px-5 my-5  p-0 productSectionA">
           <div className=" productSectionAImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -106,7 +106,7 @@ function Products() {
           </div>
         </div>
         {/* 4th section */}
-        <div className="container-fluid px-5 my-5 serviceSection4 productSectionA">
+        <div className="container px-5 my-5 serviceSection4 productSectionA">
           <div className=" productSectionAContent">
             <div className="mr-5">
               <h2 className="mt-3 mb-5">4. OPD Booking System</h2>
@@ -125,7 +125,7 @@ function Products() {
           </div>
         </div>
         {/* 5th section */}
-        <div className="container-fluid px-5 my-5 serviceSection5 p-0 productSectionA">
+        <div className="container px-5 my-5 serviceSection5 p-0 productSectionA">
           <div className="serviceSection5Img productSectionAImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -147,7 +147,7 @@ function Products() {
           </div>
         </div>
         {/* 6th section */}
-        <div className="container-fluid px-5 my-5 serviceSection6 productSectionA">
+        <div className="container px-5 my-5 serviceSection6 productSectionA">
           <div className="serviceSection6Content productSectionAContent">
             <div className="mr-5">
               <h2 className="mt-3 mb-5">6. Learning Management System</h2>
@@ -166,7 +166,7 @@ function Products() {
           </div>
         </div>
         {/* 7th section */}
-        <div className="container-fluid px-5 my-5 serviceSection7 p-0 productSectionA">
+        <div className="container px-5 my-5 serviceSection7 p-0 productSectionA">
           <div className="serviceSection7Img productSectionAImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -188,7 +188,7 @@ function Products() {
           </div>
         </div>
         {/* 8th section */}
-        <div className="container-fluid px-5 my-5 serviceSection8 productSectionA">
+        <div className="container px-5 my-5 serviceSection8 productSectionA">
           <div className="serviceSection8Content productSectionAContent">
             <div className="mr-5">
               <h2 className="mt-3 mb-5">8. Legal Management System</h2>
@@ -207,7 +207,7 @@ function Products() {
           </div>
         </div>
         {/* 9th section */}
-        <div className="container-fluid px-5 my-5 serviceSection9 p-0 productSectionA">
+        <div className="container px-5 my-5 serviceSection9 p-0 productSectionA">
           <div className="serviceSection9Img productSectionAImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -229,7 +229,7 @@ function Products() {
           </div>
         </div>
         {/* 10th section */}
-        <div className="container-fluid px-5 my-5 productSection10 productSectionA">
+        <div className="container px-5 my-5 productSection10 productSectionA">
           <div className="productSection10Content productSectionAContent">
             <div className="mr-5">
               <h2 className="mt-3 mb-5">10. Tourism  Management System</h2>
@@ -248,7 +248,7 @@ function Products() {
           </div>
         </div>
         {/* 11th section */}
-        <div className="container-fluid px-5 my-5 productSection11 p-0 productSectionA">
+        <div className="container px-5 my-5 productSection11 p-0 productSectionA">
           <div className="productSection11Img productSectionAImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -270,7 +270,7 @@ function Products() {
           </div>
         </div>
         {/* 12th section */}
-        <div className="container-fluid px-5 my-5 productSection12 productSectionA">
+        <div className="container px-5 my-5 productSection12 productSectionA">
           <div className="productSection12Content productSectionAContent">
             <div className="mr-5">
               <h2 className="mt-3 mb-5">12. Visitor & Complaint  Management System</h2>
@@ -289,7 +289,7 @@ function Products() {
           </div>
         </div>
         {/* 13th section */}
-        <div className="container-fluid px-5 my-5 productSection13 p-0 productSectionA">
+        <div className="container px-5 my-5 productSection13 p-0 productSectionA">
           <div className="productSection13Img productSectionAImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -311,7 +311,7 @@ function Products() {
           </div>
         </div>
         {/* 14th section */}
-        {/* <div className="container-fluid px-5 my-5 productSection12 productSectionA">
+        {/* <div className="container px-5 my-5 productSection12 productSectionA">
           <div className="productSection12Content productSectionAContent">
             <div className="mr-5">
               <h2 className="mt-3 mb-5">14. E-pass Portal</h2>
